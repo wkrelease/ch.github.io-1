@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>关于我们 - 东家</title>
+	<meta name="renderer" content="webkit">
+	<meta name="keywords" content="东家,东家app,东家官网,匠人,手作,手工,中国风,复古,旗袍,古玩,收藏,茶艺,装饰品,茶艺,瓷器,珠宝" />
+	<meta name="description" content="东家app官网，匠人云集，寻觅蕴含东方美学的原创好物，更可以结交匠人，购买美物">
+	<link rel="stylesheet" href="../css/about.css?tm=20180523">
+	<link rel="stylesheet" href="../css/head.css?tm=20180418">
+	<link rel="stylesheet" href="../css/foot.css?tm=20180418">
+	<script src="../js/jquery-2.1.1.min.js"></script>
+	<script src="../js/jquery.SuperSlide.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?e06f750289086397d2082fa2b0ba0ae0";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+	<style>
+		.menu {
+			float: right;
+			position: fixed;
+			right: 0px;
+			width: 180px;
+			height: 43px;
+			text-align: center;
+			padding-top: 17px;
+			background: #fff;
+			display: none;
+		}
+
+		.menu .menuIcon .openClose {
+			display: none
+		}
+
+		.menu .menuList {
+			width: 140px;
+			background: #fff;
+			padding: 0 20px;
+			display: none;
+			box-shadow: 0 4px 29px 0 rgba(0, 0, 0, 0.07);
+			position: fixed;
+			top: 60px;
+			right: 0px;
+		}
+
+		.menu .menuList .menuPage {
+			line-height: 64px;
+			text-align: center;
+			border-bottom: 1px solid #D8D8D8;
+		}
+
+		.menu .menuList .menuPage:last-child {
+			border-bottom: none
+		}
+
+		.menu .menuList .menuPage a {
+			font-size: 15px;
+			color: #666;
+		}
+
+		@media (max-width: 1000px) {
+			.tabs {
+				display: none;
+			}
+			.menu {
+				display: block
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="main" style="min-width: 1200px">
+		<div class="page page1">
+			<div id="head">
+				<div class="headContent clearfix">
+					<div class="head-logo">
+						<img src="../images/headlogo.png?tm=20180319">
+					</div>
+					<div class="tabs">
+						<a href="../index.html" class="home-link active">首页</a>
+						<a href="about.html" class="about-link">关于我们</a>
+						<a href="jobs.html" class="jobs-link">招贤纳士</a>
+						<a href="enter.html" class="enter-link">匠人入驻</a>
+						<a href="https://crafts.idongjia.cn" target="_blank">匠人后台</a>
+						<a href="contact.html" class="contact-link">联系我们</a>
+					</div>
+
+					<div class="menu">
+						<div class="menuIcon">
+							<img src="../images/open.png?tm=20180418" class="open">
+							<img src="../images/openClose.png?tm=20180418" class="openClose">
+						</div>
+						<div class="menuList">
+							<div class="menuPage">
+								<a href="../index.html">首页</a>
+							</div>
+							<div class="menuPage">
+								<a href="about.html">关于我们</a>
+							</div>
+							<div class="menuPage">
+								<a href="jobs.html">招贤纳士</a>
+							</div>
+							<div class="menuPage">
+								<a href="enter.html">匠人入驻</a>
+							</div>
+							<div class="menuPage">
+								<a href="https://crafts.idongjia.cn" target="_blank">匠人后台</a>
+							</div>
+							<div class="menuPage">
+								<a href="contact.html">联系我们</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="page page2">
+			<div class="team">
+				<div class="h2">创始团队</div>
+				<div class="teamContent">
+					<div class="introduce clearfix">
+						<div class="content">
+							<div class="introduceImg">
+								<img src="../images/lead2.png?tm=20180319"></img>
+							</div>
+							<div class="introduceTxt clearfix">
+								<div class="contentLeft">
+									朱见山·东家创始人
+									<span>&</span> CEO
+								</div>
+								<div class="contentCenter">
+
+								</div>
+								<div class="contentRight">
+									<div class="txt">
+										见山堂创始人、中国书法协会会员
+									</div>
+									<div class="txt">西湖龙井茶文化专家</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="content">
+							<div class="introduceImg">
+								<img src="../images/lead5.png?tm=20180319"></img>
+							</div>
+							<div class="introduceTxt clearfix">
+								<div class="contentLeft">
+									赵普·东家联合创始人
+								</div>
+								<div class="contentCenter">
+
+								</div>
+								<div class="contentRight">
+									<div class="txt">
+										前央视新闻频道主持人
+									</div>
+									<div class="txt">中国手艺发展研究中心主任</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="develop">
+				<div class="h2">发展历程</div>
+				<div class="developContent">
+					<div class="developTime">
+						<div class="developTimeList">
+							<div class="listContent">2015.2月底</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2015.04.15</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2015.05.19</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2015.09.29</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2015.12.11</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2015.12.19</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2016.01.08</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2016.07.02</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2016.09.12</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2016.12.31</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2017.02.06</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2017.07.22</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2017.09.08</div>
+							<div class="listCircle"></div>
+						</div>
+						<div class="developTimeList">
+							<div class="listContent">2018.03.16</div>
+							<div class="listCircle"></div>
+						</div>
+					</div>
+					<div class="developEvent">
+						东家正式启动</br>
+						东家安卓版正式上线；当时被小米应用市场推荐至首页精品应用，被应用宝推荐为精品应用</br>
+						东家iOS正式上线；当日被36kr评为不可错过的新品</br>
+						电商上线，开放购买功能</br>
+						拍卖产品上线</br>
+						传家节大型活动上线</br>
+						获得A轮融资</br>
+						东家一周年活动【匠人营国】；成为中国手艺发展研究中心首个“互联网产业示范点”</br>
+						新logo、icon上线</br>
+						赵普正式加入东家</br>
+						完成由复星集团领投的A+轮融资</br>
+						承办首届中国匠人大会</br>
+						首家线下店【问津】在天津开业</br>
+						完成B轮融资
+					</div>
+				</div>
+			</div>
+			<div class="report">
+				<div class="h2">媒体报道</div>
+				<div class="artwareList">
+					<div class="hd">
+						<a class="next"></a>
+						<a class="prev"></a>
+					</div>
+					<div class="bd">
+						<div class="picList">
+							<li>
+								<img src="../images/repore19.png?tm=20180518">
+								<div class="picListContent">
+									<div class="title">
+										跨界融合，南都光原携手东家 赋能粤港澳大湾区文创产业
+									</div>
+									<div class="txt">
+										5月15日上午，名为“跨界融合，为品质生活赋能”的南都光原、东家、薪传文化、智科网络战略合作签约仪式在广州举行，标志着四方合作迈入全新阶段。四方此次结盟，意在建立战略合作关系，整合多方资源优势。同步启动的“寻找守艺人计划”，亦将生产巨量文创类内容原创内容，媒体加持大数据分析，共同挖掘孵化民间手艺人及其产品，重焕匠人精神。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：南方都市报 2018年-05-17
+										</div>
+
+									</div>
+									<a class="skip" href="http://epaper.oeeee.com/epaper/C/html/2018-05/17/content_27084.htm" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore18.png?tm=20180518">
+								<div class="picListContent">
+									<div class="title">
+										抓住新中产的心，“东家“月入近亿元的非标电商方法论
+									</div>
+									<div class="txt">
+										俞海华说，”东家APP”上卖的很多都是“非标、无用，同时特别昂贵”的匠人手作作品，但却突破了非标电商的局限，作为非标垂直电商平台，单月GMV近1亿。如何抓住新中产的精神需求？如何的做高客单价的非标电商？i黑马在北京国子监对面的东家文化办公室探寻东家的答案。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：i黑马 2018-03-29
+										</div>
+
+									</div>
+									<a class="skip" href="https://mp.weixin.qq.com/s/FSShCiYtFu5YcCDPerRDGw" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore0.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										「东家」完成1.1亿元B轮融资，从匠人手作电商升级为文化生活平台
+									</div>
+									<div class="txt">
+										匠人手作电商平台「东家」已于近日完成1.1亿元B轮融资，由 SIG（海纳亚洲）领投，复星集团跟投。据悉，本轮融资资金将用于团队建设、市场推广以及内容社区的打造。此前，「东家」曾获得来自元璟资本、道生资本的数千万元A轮融资，以及复星集团领投的数千万元A+轮融资。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：36氪 2018年03月17日
+										</div>
+
+									</div>
+									<a class="skip" href="https://36kr.com/p/5124274.html?from=groupmessage&isappinstalled=0" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore1.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										“一拍即合”预展亮相上海 东家APP拍卖首次落地
+									</div>
+									<div class="txt">
+										开幕式上，东家CEO俞海华首先致辞，对此次办展的意义进行了阐释。他说“预展让用户与大师面对面，拉近了人与人的距离，拍品更温暖，从此不再冷冰冰”。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：腾讯 2017年12月26日
+										</div>
+
+									</div>
+									<a class="skip" href="http://cul.qq.com/a/20171226/024240.htm" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore2.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										“传家节·一拍即合”：独运匠心美工
+									</div>
+									<div class="txt">
+										匠人代表、中国工艺美术大师宋世义随后上台发言，他认为来到这个交流会就像一个温暖的大家庭，在东家平台中，匠人和匠人之间能切磋交流，和消费者交流，拉近了匠人与受众之间的关系，实现了真正的交流互动。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：新浪 2017年12月24日
+										</div>
+
+									</div>
+									<a class="skip" href="http://collection.sina.com.cn/wwzx/2017-12-24/doc-ifypvuqf1606718.shtml" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore4.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										中国匠人大会在杭召开，人民慕课助力手艺传承
+									</div>
+									<div class="txt">
+										赵普表示：“买卖是最好的保护、使用是最好的传承、分享是最好的传播”，关注传统文化、手工艺术，拯救濒临消失的独门手艺，弘扬和传承传统手工艺人文化精神，是所有中国人的责任，也是人民慕课“大国匠人”学院推出的最重要意义。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：人民网 2017年07月24日
+										</div>
+
+									</div>
+									<a class="skip" href="http://yuqing.people.com.cn/n1/2017/0724/c408627-29424316.html" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore5.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										东家发布首份《中国匠人电商生态观察》
+									</div>
+									<div class="txt">
+										穿汉服、玩手串、抄经、品茗成为了新一代消费者的生活方式，而吊坠、品茗杯、摆件、手串、茶壶、玉器、篆刻、手链手镯、项链、黑茶则成了东家平台上兴趣类购买商品排行榜的TOP10。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：36kr 2017年07月24日
+										</div>
+
+									</div>
+									<a class="skip" href="http://36kr.com/p/5084943.html" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore6.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										打造匠人生态圈
+									</div>
+									<div class="txt">
+										王臻篆刻不到一年累计成交200万元，最高单价29万元；90后匠人上九的所有作品一经上线就被抢购一空，均价达2500元……如今，“东家”已经拥有4000多名匠人，150万购买用户，月销售额达3500万元。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：浙江日报 2017年07月25日
+										</div>
+
+									</div>
+									<a class="skip" href="http://36kr.com/p/5084943.html" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore10.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										东家APP创始人朱见山:每个商品都有一个故事
+									</div>
+									<div class="txt">
+										东家有个愿景：让传承成为潮流。东家想成为这个潮流当中的一个桥梁，一个汇聚的点。因为这样的使命，我们把自己定义为一家文化企业，也不是一家简单的互联网企业。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：联商网 2017年07月13日
+										</div>
+
+									</div>
+									<a class="skip" href="http://www.linkshop.com.cn/web/archives/2017/382297.shtml?from=rss" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore11.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										什么东·西/给东方珠宝换上潮流新装
+									</div>
+									<div class="txt">
+										随着国学复兴与时代前进，东方珠宝文化被重拾被回味。中西文化，花开并蒂，而美，却不分东西。当不同土壤、不同风格的文化水乳交融，就会产生奇妙的化学反应。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：时尚芭莎 2017年05月17日
+										</div>
+
+									</div>
+									<a class="skip" href="https://mp.weixin.qq.com/s/gVfZjvNaSSUBz0jR2jqUSQ" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore12.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										珠宝 | 东家携手13位中国顶尖独立珠宝设计师 “什么东?西”珠宝联展亮相上海
+									</div>
+									<div class="txt">
+										此次联展由中国最大的匠人手作平台——东家·守艺人主办，联合王焜、大树珠宝等国内13位顶尖独立珠宝设计师共同打造旨在表达属于这个时代的“东方美”，定义了东方珠宝设计的新高度。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：网易 2017年05月12日
+										</div>
+
+									</div>
+									<a class="skip" href="http://art.163.com/17/0512/19/CK8R4QIU00267VBU.html" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore13.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										东阳联手东家·守艺人APP 打造线上“中华国艺馆”
+									</div>
+									<div class="txt">
+										东家·守艺人平台入驻东阳，是复星继2012年领衔众知名浙商投资东阳木雕城近百亿之后的又一重要举措。作为中国最大的匠人手作电商APP，东家·守艺人目前已成为国内涵盖范围最广的东方美学生活平台之一。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：金华新闻网 2017年04月12日
+										</div>
+
+									</div>
+									<a class="skip" href="http://www.jhnews.com.cn/2017/0412/752187.shtml" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore14.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										赵普对话日本设计师黑川雅之:让传承成为潮流
+									</div>
+									<div class="txt">
+										《东家对话黑川雅之——让传承成为潮流》是“东家会客厅”系列的第一集，该系列旨在对话东方手艺、设计、美学大师，探索东方最美生活方式，探讨东方生活哲学。在人们越来越远离传统，告别传统的今天，探究如何让东方的生活之美融入现代生活。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：优酷 2017年03月13日
+										</div>
+
+									</div>
+									<a class="skip" href="http://v.youku.com/v_show/id_XMjYzNDIwMzkzNg==.html?from=y1.2-2.2" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore15.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										东家CEO俞海华：我们不是中国版Etsy，要用交易让传承成为潮流
+									</div>
+									<div class="txt">
+										东家发展至今，很多人建议俞海华做微信公众号，为匠人拍短视频，也有人认为转型做拍卖的工具不错，东家坚持做电商。在俞海华看来，写文章，做视频都不能真正帮助匠人，只有交易和买卖，用商业的方法才能实现让传承成为潮流的愿景。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源："亿欧" 2017年02月14日
+										</div>
+
+									</div>
+									<a class="skip" href="https://www.iyiou.com/p/39253" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore16.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										【首发】东家获复星集团数千万A+轮融资，要用传统文化连接人、物与场景
+									</div>
+									<div class="txt">
+										东家上线于2015年5月，是一款基于东方生活美学的社交平台与兴趣类电商。主打“让传承成为潮流”Slogan的东家，希望能够为民间手工艺人提供一个商业化的平台，通过“买卖”与“使用”，来保护传统文化的延续。去年末，前央视《晚间新闻》主持人赵普，也正式以联合创始人身份加盟，负责品牌业务。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：36kr 2017年02月06日
+										</div>
+
+									</div>
+									<a class="skip" href="http://36kr.com/p/5062442.html" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+							<li>
+								<img src="../images/repore17.png?tm=20180319">
+								<div class="picListContent">
+									<div class="title">
+										【独家】对话赵普：又一位央视名嘴投身创业，要用商业来对抗传统文化的流失
+									</div>
+									<div class="txt">
+										其实从央视辞职前，赵普就是一个中国传统文化保护的坚定参与者，早在15年前，就追随冯骥才先生共同参与民间文化的传承和保护，在北京电视台任职时，还原创了纪录片《传人》，希望能够保护濒临失传的手艺和非物质文化遗产。
+									</div>
+									<div class="source clearfix">
+										<div class="sourceRight">
+											来源：搜狐科技 2016年12月30日
+										</div>
+
+									</div>
+									<a class="skip" href="http://36kr.com/p/5084943.html" target="_blank">
+										点击查看完整报道 >>
+									</a>
+								</div>
+							</li>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="foot">
+			<div class="footList clearfix">
+				<div class="list">
+					<div class="listHead">
+						招聘
+					</div>
+					<div class="listContent">
+						<a href="jobs.html"> 加入我们</a>
+					</div>
+				</div>
+				<div class="list">
+					<div class="listHead">
+						入驻
+					</div>
+					<div class="listContent">
+						<a href="enter.html">招商方向</a>
+
+					</div>
+					<div class="listContent">
+						<a href="enter.html">入驻标准</a>
+
+					</div>
+				</div>
+				<div class="list">
+					<div class="listHead">
+						我们
+					</div>
+					<div class="listContent">
+						<a href="about.html">关于我们</a>
+					</div>
+					<div class="listContent">
+						<a href="contact.html">联系我们</a>
+
+					</div>
+				</div>
+				<div class="list">
+					<div class="listHead">
+						关注
+					</div>
+					<div class="listContent weixin">
+						微信公众号
+						<div class="listModal wx">
+							<span class="z">◆</span>
+							<img src="../images/weixin.jpg"></img>
+						</div>
+					</div>
+					<div class="listContent ">
+						微博
+						<div class="listModal weibo">
+							<span class="z">◆</span>
+							<img src="../images/weibo.png"></img>
+						</div>
+					</div>
+					<div class="listContent ">
+						悟空号
+						<div class="listModal wukong">
+							<span class="z">◆</span>
+							<img src="../images/wukong.png"></img>
+						</div>
+					</div>
+				</div>
+				<div class="list">
+					<div class="listHead">
+						下载
+					</div>
+					<div class="listContent appDown">
+						东家APP
+						<div class="listModal app">
+							<span class="z">◆</span>
+							<img src="../images/app.png"></img>
+						</div>
+					</div>
+
+				</div>
+				<div class="list">
+					<div class="listHead">
+						其他
+					</div>
+					<div class="listContent">
+						<a href="https://crafts.idongjia.cn" target="_blank">匠人后台</a>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="footBorder">
+
+			</div>
+			<div class="footBottom">
+				<span style="margin: 10px"><a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">东家 浙ICP备15000462号-2</a></span>   <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602009699" >浙公网安备 33010602009699号 <img src="./images/police.png" style="margin-top: 15px;width: 13px;height:13px" alt=""> </a></br>
+				版权所有 © 2018 idongjia.cn 保留所有权利 杭州有朋网络技术有限公司电话：400-100-8511
+			  </div>
+		</div>
+		<script src="../js/controllers/about.js?tm=20180418"></script>
+		<script>
+
+			$(".menuIcon").click(function () {
+				var menShow = $(this).siblings(".menuList").css("display");
+				if (menShow == "none") {
+					$(this).siblings(".menuList").show();
+					$(this).find(".open").hide();
+					$(this).find(".openClose").show();
+				} else {
+					$(this).siblings(".menuList").hide();
+					$(this).find(".open").show();
+					$(this).find(".openClose").hide();
+				}
+			})
+		</script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+#foot{
+  padding: 0 20%;
+  background: #FAFAFA;
+  position: relative;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#foot .footList{
+  width: 100%;
+  padding-top: 40px
+}
+#foot .footList .list{
+  float: left;
+  width: 16.6%;
+}
+#foot .footList .list .listHead{
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+  margin-bottom: 13px;
+}
+#foot .footList .list .listContent{
+  font-size: 12px;
+  color: #666666;
+  line-height: 16px;
+  margin-bottom: 14px;
+  cursor:pointer;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300
+}
+#foot .footList .list .listContent .listModal{
+  position: absolute;
+  padding: 15px;
+  background: #fff;
+  display: none;
+  border-radius: 20px
+}
+#foot .footList .list .listContent .listModal .z{
+  font-size: 30px;
+  position: absolute;
+  top: 43%;
+  left: -10%;
+  color: #fff;
+}
+#foot .footList .list .listContent img{
+  width: 130px;
+  height: 130px;
+}
+#foot a{
+  color: #666
+}
+.footBorder{
+  width: 44%;
+  height:1px;
+  background: #ccc;
+  width: 100%;
+  margin-bottom: 20px
+}
+.footBottom{
+  font-size: 12px;
+  color: #666666;
+  line-height: 28px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  text-align: center
+}
+.vision{
+  background-position:bottom left;
+  background-size: cover;
+}
+.wx{
+  top: 1%;
+  right: 29%;
+}
+.weibo{
+  top: 15%;
+  right: 29%;
+}
+.wukong{
+  top: 25%;
+  right: 29%;
+}
+.app{
+  top: 1%;
+  right: 19%;
+}

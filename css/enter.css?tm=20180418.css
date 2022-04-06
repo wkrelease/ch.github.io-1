@@ -1,0 +1,134 @@
+
+.page2{
+  text-align: center;
+  margin-top: 90px
+}
+.investment{
+  margin-bottom: 100px;
+  margin-top: 80px;
+  text-align: center;
+}
+.page2  .h1{
+  font-size: 18px;
+  color: #333333;
+}
+.page2 .border{
+  width: 60px;
+  height: 3px;
+  background: #C63535;
+  display: inline-block;
+  box-shadow: 0 0 black;
+  margin: 30px 0;
+}
+.investment .explain{
+  font-size: 14px;
+  color: #666666;
+  padding: 0 23%;
+  text-align: left;
+  line-height: 30px;
+}
+.flow{
+  margin-bottom: 100px;
+}
+.flow .title{
+  font-size: 12px;
+  color: #666666;
+  line-height: 44px;
+  margin-bottom: 24px
+}
+.flow .flowList{
+  font-size: 14px;
+  color: #666666;
+  line-height: 35.2px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+.flow .flowList .list{
+  padding: 5px 10px;
+  border: 1px solid #666;
+  border-radius: 30px;
+}
+.flow .flowList .arrows{
+  padding: 10px 20px
+}
+.flow .tip{
+  font-size: 14px;
+  color: #666666;
+  line-height: 30px;
+}
+.page2 .contentList{
+  padding-left: 20%;
+  margin-bottom: 200px
+}
+.service .title{
+  font-size: 14px;
+  color: #666666;
+  line-height: 30px;
+  margin-bottom: 50px
+}
+.page2 .content{
+  width: 32%;
+  float:left;
+  text-align: left;
+}
+.page2 .content .contentLeft{
+  height: 375px;
+  writing-mode: vertical-lr;
+  writing-mode: tb-lr;
+  float: left;
+  padding-top: 10px;
+  width: 25px;
+  line-height: 26px;
+  font-size: 16px;
+  letter-spacing: 6px;
+  color: #333333;
+  border-top: 3px solid #C63535;
+  font-family: MicrosoftYaHei;
+}
+.page2 .content .contentLeft span{
+  width: 15px;
+  margin: 0 auto;
+  line-height: 24px;
+  color: #333;
+  font-size: 13px;
+  word-wrap: break-word;
+  writing-mode: horizontal-tb;
+}
+.page2 .content .contentCenter{
+  background: #D8D8D8;
+  height: 375px;
+  float: left;
+  margin: 0 25px;
+  width: 1px;
+}
+.page2 .content .contentRight{
+  float: left;
+  width: 100px;
+}
+.page2 .content .contentRight .txt{
+  margin: 0 auto;
+  height: 375px;
+  writing-mode: vertical-lr;
+  writing-mode: tb-lr;
+  display: inline-block;
+  font-size: 13px;
+  color: #666;
+  letter-spacing: 5px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300
+}
+.page2 .content .contentRight .txt span{
+  width: 15px;
+  margin: 0 auto;
+  line-height: 24px;
+  color: #333;
+  font-size: 13px;
+  word-wrap: break-word;
+  writing-mode: horizontal-tb;
+}
+.page .banner{
+  padding: 0 19%
+}
+.page .banner img{
+  border-radius: 10px
+}

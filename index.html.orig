@@ -3,17 +3,24 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="images/favicon.ico" />
-  <title>苏州收藏家协会</title>
+  <title>东家 - 原创东方匠人手作APP，结交匠人，购买美物</title>
   <meta name="renderer" content="webkit">
-  <meta name="keywords" content="苏州，收藏夹，和田玉，匠人" />
-  <meta name="description" content="苏州收藏家协会官网">
-  <link rel="stylesheet" href="css/home.css%3Ftm=20200310.css">
-  <link rel="stylesheet" href="css/head.css%3Ftm=20200310.css">
-  <link rel="stylesheet" href="css/foot.css%3Ftm=20200310.css">
-  <link rel="stylesheet" href="css/entera.css">
-  <script src="js/jquery-2.1.1.min.js"></script>
-  <script src="js/jquery.SuperSlide.js"></script>
+  <meta name="keywords" content="东家,东家app,东家官网,匠人,手作,手工,中国风,复古,旗袍,古玩,收藏,茶艺,装饰品,茶艺,瓷器,珠宝" />
+  <meta name="description" content="东家app官网，匠人云集，寻觅蕴含东方美学的原创好物，更可以结交匠人，购买美物">
+  <link rel="stylesheet" href="./css/home.css?tm=20200310">
+  <link rel="stylesheet" href="./css/head.css?tm=20200310">
+  <link rel="stylesheet" href="./css/foot.css?tm=20200310">
+  <script src="./js/jquery-2.1.1.min.js"></script>
+  <script src="./js/jquery.SuperSlide.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e06f750289086397d2082fa2b0ba0ae0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
   <style>
     .menu {
       float: right;
@@ -73,64 +80,88 @@
       <div id="head">
         <div class="headContent clearfix">
           <div class="head-logo">
-            <img src="images/headscj.jpg">
+            <img src="./images/headlogo.png?tm=20200310">
           </div>
           <div class="tabs">
-            <a href="" class="">首页</a>
-            <a href="" class="about-link">关于我们</a>
-            <a href="" class="contact-link">联系我们</a>
+            <a href="http://djcommunity.idongjia.cn/login">登录</a>
+            <a href="#" class="home-link active">首页</a>
+            <a href="./view/about.html" class="about-link">关于我们</a>
+            <a href="./view/jobs.html" class="jobs-link">招贤纳士</a>
+            <a href="./view/enter.html" class="enter-link">匠人入驻</a>
+            <a href="https://crafts.idongjia.cn" target="_blank">匠人后台</a>
+            <a href="./view/contact.html" class="contact-link">联系我们</a>
           </div>
 
           <div class="menu">
             <div class="menuIcon">
-                <img src="images/open.png%3Ftm=20200310" class="open">
-                <img src="images/openClose.png%3Ftm=20180418" class="openClose">
+                <img src="./images/open.png?tm=20200310" class="open">
+                <img src="./images/openClose.png?tm=20180418" class="openClose">
             </div>
             <div class="menuList">
-              <div class="menuPage"><a href="index.html" >首页</a></div>
-              <div class="menuPage"><a href="" >关于我们</a></div>
-              <div class="menuPage"><a href="" >联系我们</a></div>
+              <div class="menuPage"><a href="/" >首页</a></div>
+              <div class="menuPage"><a href="./view/about.html" >关于我们</a></div>
+              <div class="menuPage"><a href="./view/jobs.html" >招贤纳士</a></div>
+              <div class="menuPage"><a href="./view/enter.html" >匠人入驻</a></div>
+              <div class="menuPage"><a href="https://crafts.idongjia.cn" target="_blank">匠人后台</a></div>
+              <div class="menuPage"><a href="./view/contact.html" >联系我们</a></div>
             </div>
           </div>
 
         </div>
       </div>
-      
-      
       <div id="banner">
         <div class="artwareList3">
 
           <div class="bd">
             <div class="picList">
               <li>
-                <img src="images/home1.png%3Ftm=20200310">
+                <img src="./images/home1.png?tm=20200310">
               </li>
               <li>
-                <img src="images/home4.png%3Ftm=20200310">
+                <img src="./images/home4.png?tm=20200310">
               </li>
               <li>
-                <img src="images/home5.png%3Ftm=20200310">
+                <img src="./images/home5.png?tm=20200310">
               </li>
               <li>
-                <img src="images/home6.png%3Ftm=20200310">
+                <img src="./images/home6.png?tm=20200310">
               </li>
               <li>
-                <img src="images/home7.png%3Ftm=20200310">
+                <img src="./images/home7.png?tm=20200310">
               </li>
             </div>
           </div>
         </div>
         <div class="bannerTip">
           <div class="bannerLogo">
-            <img src="images/suzhou.png">
+            <img src="./images/logo.png?tm=20200310">
+          </div>
+          <div class="tipCenter">
+            <img src="./images/font2.png?tm=20181114">
+          </div>
+          <div class="tipBlock">
+            <div class="clickTabs fl">
+              <div class="click"></div>
+              <div class="clickTxt">结交匠人</div>
+            </div>
+            <div class="clickTabs fr">
+              <div class="click"></div>
+              <div class="clickTxt">购买美物</div>
+            </div>
+          </div>
+          <div class="tipDown" style="letter-spacing:1px">
+            下载APP
+          </div>
+          <div class="download pop downloadHide" style="top:20px;left:32%;width:116px;height:116px">
+            <div class="app">
+              <span class="side">◆</span>
+              <img src="./images/app.png?tm=20200310" alt="">
+            </div>
+
           </div>
         </div>
       </div>
     </div>
-    
-    
-    
-    
     <div class="page page2">
       <div class="slideTip">
         <div class="h1">
@@ -151,82 +182,80 @@
         <div class="bd">
           <div class="picList">
             <li>
-              <img src="images/shop1.png%3Ftm=20200310">
+              <img src="./images/shop1.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop2.png%3Ftm=20200310">
+              <img src="./images/shop2.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop3.png%3Ftm=20200310">
+              <img src="./images/shop3.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop4.png%3Ftm=20200310">
+              <img src="./images/shop4.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop5.png%3Ftm=20200310">
+              <img src="./images/shop5.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop6.png%3Ftm=20200310">
+              <img src="./images/shop6.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop7.png%3Ftm=20200310">
+              <img src="./images/shop7.png?tm=20200310">
             </li>
             <li>
-              <img src="images/shop8.png%3Ftm=20200310">
+              <img src="./images/shop8.png?tm=20200310">
             </li>
             <li>
-              <img src="images/9.png%3Ftm=20200310">
+              <img src="./images/9.png?tm=20200310">
             </li>
             <li>
-              <img src="images/10.png%3Ftm=20200310">
+              <img src="./images/10.png?tm=20200310">
             </li>
             <li>
-              <img src="images/11.png%3Ftm=20200310">
+              <img src="./images/11.png?tm=20200310">
             </li>
             <li>
-              <img src="images/12.png%3Ftm=20200310">
+              <img src="./images/12.png?tm=20200310">
             </li>
             <li>
-              <img src="images/13.png%3Ftm=20200310">
+              <img src="./images/13.png?tm=20200310">
             </li>
             <li>
-              <img src="images/14.png%3Ftm=20200310">
+              <img src="./images/14.png?tm=20200310">
             </li>
             <li>
-              <img src="images/15.png%3Ftm=20200310">
+              <img src="./images/15.png?tm=20200310">
             </li>
             <li>
-              <img src="images/16.png%3Ftm=20200310">
+              <img src="./images/16.png?tm=20200310">
             </li>
             <li>
-              <img src="images/17.png%3Ftm=20200310">
+              <img src="./images/17.png?tm=20200310">
             </li>
             <li>
-              <img src="images/18.png%3Ftm=20200310">
+              <img src="./images/18.png?tm=20200310">
             </li>
             <li>
-              <img src="images/19.png%3Ftm=20200310">
+              <img src="./images/19.png?tm=20200310">
             </li>
             <li>
-              <img src="images/20.png%3Ftm=20200310">
+              <img src="./images/20.png?tm=20200310">
             </li>
             <li>
-              <img src="images/21.png%3Ftm=20200310">
+              <img src="./images/21.png?tm=20200310">
             </li>
             <li>
-              <img src="images/22.png%3Ftm=20200310">
+              <img src="./images/22.png?tm=20200310">
             </li>
             <li>
-              <img src="images/23.png%3Ftm=20200310">
+              <img src="./images/23.png?tm=20200310">
             </li>
             <li>
-              <img src="images/24.png%3Ftm=20200310">
+              <img src="./images/24.png?tm=20200310">
             </li>
           </div>
         </div>
       </div>
-      
-      
       <div class="slideTip">
         <div class="h1">
           匠人云集
@@ -247,7 +276,7 @@
           <div class="picList">
             <li class="person">
               <div class="personImg">
-                <img src="images/people8.png%3Ftm=20200310">
+                <img src="./images/people8.png?tm=20200310">
               </div>
               <div class="mark">
                 <div class="markName">宋世义</div>
@@ -256,7 +285,7 @@
             </li>
 
             <li class="person">
-              <img src="images/people2.png%3Ftm=20200310">
+              <img src="./images/people2.png?tm=20200310">
               <div class="mark">
                 <div class="markName">徐维明</div>
                 <div class="markIntroduce">宜兴徐门紫砂第四代传人</div>
@@ -264,28 +293,28 @@
             </li>
 
             <li class="person">
-              <img src="images/people4.png%3Ftm=20200310">
+              <img src="./images/people4.png?tm=20200310">
               <div class="mark">
                 <div class="markName">徐朝兴</div>
                 <div class="markIntroduce">中国工艺美术大师 国家级"非遗"龙泉青瓷传承人</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people5.png%3Ftm=20200310">
+              <img src="./images/people5.png?tm=20200310">
               <div class="mark">
                 <div class="markName">谢华</div>
                 <div class="markIntroduce">中国工艺美术大师 手拉壶第五代传人</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people6.png%3Ftm=20200310">
+              <img src="./images/people6.png?tm=20200310">
               <div class="mark">
                 <div class="markName">向元华</div>
                 <div class="markIntroduce">中国御窑工艺传承人 御窑元华堂创始人</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people1.png%3Ftm=20200310">
+              <img src="./images/people1.png?tm=20200310">
               <div class="mark">
                 <div class="markName">张军</div>
                 <div class="markIntroduce">拓璞设计和自在工坊创始人</div>
@@ -293,70 +322,70 @@
             </li>
 
             <li class="person">
-              <img src="images/people9.png%3Ftm=20200310">
+              <img src="./images/people9.png?tm=20200310">
               <div class="mark">
                 <div class="markName">思旻</div>
                 <div class="markIntroduce">上九工作室创始人 代表作为孔雀釉</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people10.png%3Ftm=20200310">
+              <img src="./images/people10.png?tm=20200310">
               <div class="mark">
                 <div class="markName">马瑞</div>
                 <div class="markIntroduce">Master MA艺术珠宝创始人 设计师</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people11.png%3Ftm=20200310">
+              <img src="./images/people11.png?tm=20200310">
               <div class="mark">
                 <div class="markName">龙梓嘉</div>
                 <div class="markIntroduce">95后珠宝设计师</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people12.png%3Ftm=20200310">
+              <img src="./images/people12.png?tm=20200310">
               <div class="mark">
                 <div class="markName">刘明明</div>
                 <div class="markIntroduce">大树珠宝设计工作室创始人 首席设计师</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people13.png%3Ftm=20200310">
+              <img src="./images/people13.png?tm=20200310">
               <div class="mark">
                 <div class="markName">黄丽娟</div>
                 <div class="markIntroduce">中国工艺美术大师 寿山石雕刻大师</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people14.png%3Ftm=20200310">
+              <img src="./images/people14.png?tm=20200310">
               <div class="mark">
                 <div class="markName">侯正光</div>
                 <div class="markIntroduce">多少MoreLess现代中式家居创始人</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people15.png%3Ftm=20200310">
+              <img src="./images/people15.png?tm=20200310">
               <div class="mark">
                 <div class="markName">古安华</div>
                 <div class="markIntroduce">四象品牌创始人、设计师</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people16.png%3Ftm=20200310">
+              <img src="./images/people16.png?tm=20200310">
               <div class="mark">
                 <div class="markName">傅军民</div>
                 <div class="markIntroduce">平仄创始人、设计总监</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people17.png%3Ftm=20200310">
+              <img src="./images/people17.png?tm=20200310">
               <div class="mark">
                 <div class="markName">陈卫武</div>
                 <div class="markIntroduce">龙泉三杰之一 宋韵工作室创始人</div>
               </div>
             </li>
             <li class="person">
-              <img src="images/people18.png%3Ftm=20200310">
+              <img src="./images/people18.png?tm=20200310">
               <div class="mark">
                 <div class="markName">沈文蛟</div>
                 <div class="markIntroduce">一般工作室创始人，跨界艺术家</div>
@@ -365,21 +394,17 @@
           </div>
         </div>
       </div>
-      
-      
       <div class="slideTip">
         <div class="h1">
-          收藏家协会事迹
+          玩转东家
         </div>
         <div class="border">
 
         </div>
         <div class="tipBottom">
-          收藏家协会事迹收藏家协会事迹收藏家协会事迹
+          不止是电商
         </div>
       </div>
-      
-      
       <div class="introduce">
         <div class="content">
           <div class="contentLeft">
@@ -441,60 +466,117 @@
         </div>
 
       </div>
-      
-      
       <div class="slideTip  vision">
         <div class="h1">
-          公司简介
+          我们的愿景
         </div>
         <div class="border">
+
+        </div>
+        <div class="tipBottom">
+          让传承成为潮流
         </div>
       </div>
-      
-    <div class="investment">
-
-        <div class="border">
-        </div>
-        <div class="explain">
-            1999年3月，经苏州市民政局批准，正式成为苏州地区综合性收藏的社会团体法人组织，法人代表朱敏芳。
-
-  从此，在苏州市文广局、文联和民政局的领导下，在社会各界人士的支持下，协会以弘扬祖国历史文化，发展繁荣苏州民间收藏事业为宗旨，紧密团结全市收藏家和收藏爱好者，广泛开展学术研究及交流、展览、讲座、调剂、咨询服务等活动，不图虚名，脚踏实地为苏州民间收藏事业出力，为精神文明建设添砖加瓦。
-
-  2003年，协会与胥江街道联合创建“胥江社区民间收藏博物馆”，吸引了广大市民和全国许多单位与个人参观，该馆被评为苏州市精神文明建设十大新事。2004年6月，首届中国收藏界排行榜在北京揭晓，协会榜上有名，被评为全国十大收藏组织之一。
-
-    有幅对联道出了艺术品收藏的真谛，上联是：真假眼底过，下联是：道行各不同，横批是：全凭眼力。古玩藏品真假难辨，一直困扰着广大收藏爱好者。为了满足他们的要求，经国家有关部门批准，于2003年4月正式成立了“苏州市收藏艺术品鉴定中心”。
-
-  本中心以藏界资深玩家为主体，聘请一批文博专家，包括国家文物鉴定委员会委员等顾问，组成了一支咨询鉴定队伍。在咨询鉴定中，不以某人眼光为标准，发扬团队精神做好每一件物品的鉴定工作。
-
-  中心成立后，开展了大量工作，其主要行使三方面的业务：
-
-  一、配合价格认证中心对涉案物品进行鉴定评估；
-
-  二、为广大市民群众对家藏宝物进行咨询服务；
-
-  三、为工艺美术品作出含金量的裁定。
-        </div>
 
     </div>
-    
-    <br>
-    <br>
-
-    </div>
-    
-    
-    
     <div id="foot">
-   
+      <div style="width: 860px;">
+        <div class="footList clearfix">
+          <div class="list">
+            <div class="listHead">
+              招聘
+            </div>
+            <div class="listContent">
+              <a href="./view/jobs.html"> 加入我们</a>
+            </div>
+          </div>
+          <div class="list">
+            <div class="listHead">
+              入驻
+            </div>
+            <div class="listContent">
+              <a href="./view/enter.html">招商方向</a>
+
+            </div>
+            <div class="listContent">
+              <a href="./view/enter.html">入驻标准</a>
+
+            </div>
+          </div>
+          <div class="list">
+            <div class="listHead">
+              我们
+            </div>
+            <div class="listContent">
+              <a href="./view/about.html">关于我们</a>
+            </div>
+            <div class="listContent">
+              <a href="./view/contact.html">联系我们</a>
+            </div>
+            <div class="listContent">
+              <a href="https://m.idongjia.cn/163164" target="_blank">亮证亮照</a>
+            </div>
+          </div>
+          <div class="list">
+            <div class="listHead">
+              关注
+            </div>
+            <div class="listContent weixin">
+              微信公众号
+              <div class="listModal wx">
+                <span class="z">◆</span>
+                <img src="./images/weixin.jpg"></img>
+              </div>
+            </div>
+            <div class="listContent ">
+              微博
+              <div class="listModal weibo">
+                <span class="z">◆</span>
+                <img src="./images/weibo.png"></img>
+              </div>
+            </div>
+            <div class="listContent ">
+              悟空号
+              <div class="listModal wukong">
+                <span class="z">◆</span>
+                <img src="./images/wukong.png"></img>
+              </div>
+            </div>
+          </div>
+          <div class="list">
+            <div class="listHead">
+              下载
+            </div>
+            <div class="listContent appDown">
+              东家APP
+              <div class="listModal app">
+                <span class="z">◆</span>
+                <img src="./images/app.png"></img>
+              </div>
+            </div>
+
+          </div>
+          <div class="list">
+            <div class="listHead">
+              其他
+            </div>
+            <div class="listContent">
+              <a href="https://crafts.idongjia.cn" target="_blank">匠人后台</a>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="footBorder">
+
+        </div>
         <div class="footBottom">
-          <span style="margin: 10px"><a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">苏州收藏家协会 苏ICP备15000462号-2</a></span>   <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602009699" >苏公网安备 33010602009699号 <img src="images/police.png" style="margin-top: 15px;width: 13px;height:13px" alt=""> </a></br>
-          版权所有 © 2018 szscj.com 保留所有权利 苏州市收藏艺术品鉴定中心有限公司电话：400-100-123123
+          <span style="margin: 10px"><a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">东家 浙ICP备15000462号-2</a></span>   <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602009699" >浙公网安备 33010602009699号 <img src="./images/police.png" style="margin-top: 15px;width: 13px;height:13px" alt=""> </a></br>
+          版权所有 © 2018 idongjia.cn 保留所有权利 杭州有朋网络技术有限公司电话：400-100-8511
         </div>
       </div>
 
     </div>
-    
-    
     <script>
       $(".tipDown").click(function (event) {
         event.preventDefault();
@@ -519,7 +601,7 @@
         }
       })
     </script>
-    <script src="js/controllers/home.js%3Ftm=20180418"></script>
+    <script src="./js/controllers/home.js?tm=20180418"></script>
 </body>
 
 </html>

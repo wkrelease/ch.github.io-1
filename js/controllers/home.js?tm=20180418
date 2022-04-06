@@ -1,0 +1,41 @@
+$(".artwareList3 .bd li").each(function (i) {
+  $(".artwareList3 .bd li").slice(i * 1, i * 1 + 1).wrapAll("<ul></ul>");
+});
+$(".artwareList3").slide({ titCell: ".hd ul", mainCell: ".bd .picList", autoPage: true, effect: "leftLoop", autoPlay: true });
+
+$(".artwareList .bd li").each(function (i) {
+  $(".artwareList .bd li").slice(i * 8, i * 8 + 8).wrapAll("<ul></ul>");
+});
+$(".artwareList").slide({ titCell: ".hd ul", mainCell: ".bd .picList", autoPage: false, effect: "leftLoop", autoPlay: false });
+$(".artwareList1 .bd li").each(function (i) {
+  $(".artwareList1 .bd li").slice(i * 4, i * 4 + 4).wrapAll("<ul></ul>");
+});
+$(".artwareList1").slide({ titCell: ".hd ul", mainCell: ".bd .picList", autoPage: false, effect: "leftLoop", autoPlay: false });
+
+$(".person").mouseover(function () {
+  $(this).find(".mark").css("bottom", "0px")
+  $(this).css("box-shadow","0 4px 29px 0 rgba(0,0,0,0.07)")
+});
+$(".person").mouseout(function () {
+  $(this).find(".mark").css("bottom", "-123px")
+});
+//download
+var downloadShow = $(".download.pop").css("display")
+
+$(".listContent").mouseover(function(){
+  $(this).find(".listModal").show();
+  $(this).siblings('.listContent').find(".listModal").hide()
+})
+$(".listContent").mouseout(function(){
+  $(this).find(".listModal").hide();
+
+})
+$(".appDown").mouseover(function(){
+  $(this).find(".listModal").show();
+  $(this).parent(".list").siblings('.list').find(".listModal").hide()
+})
+$(".appDown").mouseout(function(){
+  $(this).find(".listModal").hide();
+
+})
+
